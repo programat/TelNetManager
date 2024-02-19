@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2024-01-25T23:23:04.424Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="F3gT5WNGF5RGtfTaZ1br" version="22.1.21" type="device">
+  <diagram name="Страница — 1" id="cztMMWDlqQOiIkR_2r50">
+    <mxGraphModel dx="2822" dy="2692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-6" value="Изменение данных договора предоставления абонентских услуг" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffff;swimlaneFillColor=#ffffff;dropTarget=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="1290" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=open;endFill=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-9" target="wKwBwj7zwG5XtYjO4gh3-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="452.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-9" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="110" y="466.88" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=openThin;endFill=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-20" target="wKwBwj7zwG5XtYjO4gh3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-20" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;Получение заявки на обновление данных договора от абонента&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;entry/Получить запрос на обновление данных от абонента&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;do/Получить новые данные&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;exit/Начать процесс обновления данных&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;arcSize=9;" vertex="1" parent="1">
+          <mxGeometry x="200" y="398.13" width="180" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-21" target="wKwBwj7zwG5XtYjO4gh3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-31" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;[данные некорректны]&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="wKwBwj7zwG5XtYjO4gh3-29">
+          <mxGeometry x="-0.0034" relative="1" as="geometry">
+            <mxPoint x="5" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=openThin;endFill=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-21" target="wKwBwj7zwG5XtYjO4gh3-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="477" />
+              <mxPoint x="680" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-37" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=openThin;endFill=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-21" target="wKwBwj7zwG5XtYjO4gh3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-21" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;Получение заявки на обновление данных договора от абонента&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;entry/Получить обновленные данные и проверить их корректность&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;do/Произвести обновление данных в базе данных&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;exit/&lt;/span&gt;Произвести анализ полученных данных на предмет корректности и обновления статуса предоставления льгот&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;arcSize=9;" vertex="1" parent="1">
+          <mxGeometry x="460" y="373.75" width="180" height="206.25" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-23" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;Перерасчет абонентской платы&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;entry/Получить обновленные данные договора&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;do/Просчитать размер новой абонентской платы&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;exit/Сохранить данные в базу данных и запустить процесс просчета стоимости междугородних разговоров&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;arcSize=9;" vertex="1" parent="1">
+          <mxGeometry x="827" y="373.75" width="180" height="206.25" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-26" value="Передача запроса абоненту на предоставления исправленных данных" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-26" target="wKwBwj7zwG5XtYjO4gh3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-32" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;Перерасчет абонентской платы&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;entry/Получить обновленные данные договора&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;do/Просчитать размер междугородних разговоров&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;exit/Сохранить данные в базу данных&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;arcSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="373.75" width="180" height="206.25" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-33" value="Оповещение об успешном&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;изменении персональных данных&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;и передача новых данных оплаты&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="630" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-34" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="665" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-38" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.476;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=openThin;endFill=0;exitX=0.996;exitY=0.476;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-23" target="wKwBwj7zwG5XtYjO4gh3-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="466.88" as="sourcePoint" />
+            <mxPoint x="1070" y="466.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.996;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=openThin;endFill=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-32" target="wKwBwj7zwG5XtYjO4gh3-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="474" />
+              <mxPoint x="1290" y="600" />
+              <mxPoint x="1090" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-40" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[у абонента изменился&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color); font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 10px;&quot;&gt;льготный статус]&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="720.0000007467454" y="450.00386543978016" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-41" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;[у абонента не изменился&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color); font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251); font-size: 10px;&quot;&gt;льготный статус]&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="750.0000007467454" y="600.0038654397802" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-45" value="Оповещение об успешном&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;изменении персональных данных&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="827" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=openThin;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-33" target="wKwBwj7zwG5XtYjO4gh3-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="487" as="sourcePoint" />
+            <mxPoint x="837" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKwBwj7zwG5XtYjO4gh3-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=openThin;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wKwBwj7zwG5XtYjO4gh3-45" target="wKwBwj7zwG5XtYjO4gh3-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="690" as="sourcePoint" />
+            <mxPoint x="1310" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="750" />
+              <mxPoint x="1200" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
